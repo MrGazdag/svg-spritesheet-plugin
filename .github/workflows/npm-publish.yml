@@ -41,10 +41,7 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: '16'
-
-      - name: Authenticate with npm
-        run: npm login --auth-type=legacy --registry=https://registry.npmjs.org
-
+      
       - name: Publish to npm
         run: npm publish --provenance --access public
         env:
