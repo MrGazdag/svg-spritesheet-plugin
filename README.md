@@ -1,5 +1,5 @@
 # svg-spritesheet-plugin
-![NPM Version](https://img.shields.io/npm/v/svg-spritesheet-plugin?logo=npm)
+[![npm](https://img.shields.io/npm/v/svg-spritesheet-plugin.svg)](https://www.npmjs.com/package/svg-spritesheet-plugin)
 
 A Webpack plugin to compile separate SVG files into a single spreadsheet. Works in watch mode as well, will recompile when the icons folder changes.
 
