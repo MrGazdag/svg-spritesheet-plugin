@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mrgazdag/svg-spritesheet-plugin.git"
+    "url": "https://github.com/MrGazdag/svg-spritesheet-plugin.git"
   },
   "keywords": [
     "webpack",
