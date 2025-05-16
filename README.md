@@ -79,7 +79,7 @@ loadSvgIcons();
 ## Configuration
 The plugin can be configured by passing an object in the constructor with the following values:
 - `iconsDir`: Path of the file to generate that exports the icon types. Defaults to `"./icons"`
-- `iconTypeFile`: Path of the file to generate that exports the icon types. Defaults to `."/src/components/common/IconType.ts"`
+- `iconTypeFile`: Path of the file to generate that exports the icon types. Defaults to `"./src/components/common/IconType.ts"`
 - `spriteLoaderOptions`: Options to pass to the internal SVGSpriteLoaderPlugin instance. Defaults to `{ plainSprite: true }`
 
 ## Examples
