@@ -1,6 +1,6 @@
 {
   "name": "svg-spritesheet-plugin",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A Webpack plugin that compiles SVG icons into a sprite and generates a TypeScript IconType declaration file",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -30,6 +30,7 @@
   "license": "MIT",
   "peerDependencies": {
     "svg-sprite-loader": "^6.0.11",
+    "svgo-loader": "^4.0.0",
     "webpack": "^5.99.5"
   },
   "devDependencies": {
