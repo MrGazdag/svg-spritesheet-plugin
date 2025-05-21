@@ -75,7 +75,7 @@ class SvgSpriteSheetPlugin {
             }
         }
 
-        const relativePrefix = path.relative(path.dirname(iconTypeAbs), iconsDirAbs).replace(/\\/g, "/");
+        let relativePrefix = path.relative(path.dirname(iconTypeAbs), iconsDirAbs).replace(/\\/g, "/");
         if (!relativePrefix.startsWith(".")) relativePrefix = "./" + relativePrefix;
 
         const imports = icons.map((i) => `import "${relativePrefix}/${i}.svg";`).join("\n");
